@@ -4,7 +4,7 @@ from users.serializers import UserSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
-	permission_classes = (permissions.IsAuthenticated,)
+	# permission_classes = (permissions.IsAuthenticated,)
 	queryset = CustomUser.objects.all()
 	serializer_class = UserSerializer
 
