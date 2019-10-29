@@ -27,7 +27,7 @@ python manage.py runserver
     eg:
     curl -X POST -H "Content-Type:application/json" http://127.0.0.1:8000/users/ -d '{"first_name": "Bruce", "last_name": "Wayne", "phone": "5122168404", "email": "batman@gotham.com", "is_staff": true  }'
 
-    {"pk":12,"first_name":"Cartman","last_name":"New last name","phone":"5122168404","email":"new_user@gmail.com","is_staff":true}
+    {"pk":1,"first_name":"Bruce","last_name":"Wayne","phone":"5122168404","email":"batman@gotham.com","is_staff":true}
 
 2. Users list API
     curl -X GET http://127.0.0.1:8000/users/
