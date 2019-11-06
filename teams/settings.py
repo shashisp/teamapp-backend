@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'users',
+    'phonenumber_field',
 ]
 
 MIDDLEWARE = [
@@ -137,4 +138,6 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ],
 }
+
+PHONENUMBER_DB_FORMAT = 'INTERNATIONAL'
 
